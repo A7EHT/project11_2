@@ -1,5 +1,17 @@
 def str_upper(text):
     """
-    Перевод текста в заглавные буквы
+    увеличивает текст
+    :param text:
+    :return:
     """
     return text.upper()
+
+
+def str_title(text):
+    """
+    делает заглавной только первую букву в слове
+    :param text:
+    :return:
+    """
+    return text.title()
+
